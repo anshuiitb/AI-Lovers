@@ -20,6 +20,26 @@ The code will reside in:
 hushh_mcp/agents/consent_dashboard_auditor/
 ```
 
+### ✅ 3. One-Line Problem Statement
 
+> “Aggregates and visualizes all third-party services with access to a user’s data, enabling instant consent review, revocation, and full audit logging through an intuitive dashboard.”
+
+### ✅ 4. Consent Scope(s) to Be Used
+
+Our agent will use:
+- `vault.read.email`
+- `vault.read.finance`
+- `agent.identity.verify`
+- `custom.audit.log`
+
+This ensures proper access for scanning data authorizations, reviewing linked accounts, confirming user identity, and maintaining detailed consent event logs.
+
+## 🧠 Project Value & Alignment
+
+Our Automated Consent Dashboard & Auditor directly embodies the hackathon’s mission:
+- **User control & transparency:** Users see and audit every app with access to their data.
+- **Granular consent:** Instantly revoke, minimize, or alter permissions.
+- **Modularity:** Each integration (email, finance, cloud) is a composable “operon.”
+- **Mentor feedback:** We welcome guidance on UI, scope, and modular agent design.
 
 
